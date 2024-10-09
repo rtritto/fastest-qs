@@ -1,0 +1,26 @@
+{
+  "name": "template-yarn-berry",
+  "version": "1.0.0",
+  "exports": "./src/index.ts",
+  "types": "./src/index.d.ts",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@4.5.0",
+  "scripts": {
+    "start": "yarn node --import tsx/esm ./start.ts",
+    "lint": "eslint src/**/*.{ts,tsx} *.ts",
+    "od": "yarn outdated"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@yarnpkg/sdks": "^3.2.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "5.5.4",
+    "typescript-eslint": "^8.8.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
