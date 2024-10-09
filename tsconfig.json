@@ -21,6 +21,7 @@
   "exclude": [
     ".github",
     ".vscode",
-    ".yarn"
+    ".yarn",
+    "dist"
   ]
 }
