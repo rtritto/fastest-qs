@@ -11,6 +11,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtritto/fast-qs.git"
+  },
   "license": "MIT",
   "packageManager": "yarn@4.5.0",
   "scripts": {
