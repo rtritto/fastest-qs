@@ -17,6 +17,7 @@
     ".github",
     ".vscode",
     ".yarn",
-    "dist"
+    "dist",
+    "scripts"
   ]
 }
