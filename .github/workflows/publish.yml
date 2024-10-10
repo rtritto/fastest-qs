@@ -23,6 +23,7 @@ jobs:
         run: yarn install
       - name: Create NPM release
         run: |
+          cat $NPM_CONFIG_USERCONFIG
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           npm publish --access public
       - name: Create GitHub release
