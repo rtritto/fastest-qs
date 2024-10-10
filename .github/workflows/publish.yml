@@ -40,7 +40,8 @@ jobs:
       - name: Create NPM release
         run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          npm publish --provenance --access public
+          npm set registry https://registry.npmjs.org
+          npm publish --access public
       - name: Create GitHub release
         uses: actions/github-script@v7
         with:
