@@ -4,15 +4,14 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
-  "eslint.alwaysShowStatus": true,
   "eslint.nodePath": ".yarn/sdks",
   "files.eol": "\n",
   "git.mergeEditor": false,
   "search.exclude": {
     "**/.pnp.*": true,
-    "**/.yarn": true
+    "**/.yarn": true,
+    "dist": true
   },
-  "scm.showOutgoingChanges": "never",
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
