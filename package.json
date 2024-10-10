@@ -1,5 +1,5 @@
 {
-  "name": "fast-qs",
+  "name": "fastest-qs",
   "version": "1.0.0",
   "type": "module",
   "exports": {
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtritto/fast-qs.git"
+    "url": "git+https://github.com/rtritto/fastest-qs.git"
   },
   "license": "MIT",
   "packageManager": "yarn@4.5.0",
