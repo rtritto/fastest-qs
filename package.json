@@ -1,5 +1,5 @@
 {
-  "name": "fast-querystring-2-object",
+  "name": "fast-qs",
   "version": "1.0.0",
   "type": "module",
   "exports": {
