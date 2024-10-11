@@ -46,9 +46,9 @@ const release = async ({ github, context, defaultBranch, versionTag }) => {
       repo,
       ref: `heads/release/${versionTag}`
     })
-  } catch (err) {
+  } catch (error) {
     console.log("Couldn't delete release PR ref")
-    console.log(err)
+    console.log(error)
   }
 }
 
