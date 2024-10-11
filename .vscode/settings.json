@@ -6,6 +6,7 @@
   "editor.tabSize": 2,
   "eslint.nodePath": ".yarn/sdks",
   "files.eol": "\n",
+  "files.insertFinalNewline": true,
   "git.mergeEditor": false,
   "search.exclude": {
     "**/.pnp.*": true,
