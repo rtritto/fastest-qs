@@ -1,27 +1,27 @@
 {
   "name": "fastest-qs",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "license": "MIT",
+  "packageManager": "yarn@4.5.0",
   "type": "module",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "exports": {
     "import": "./dist/index.mjs",
-    "types": "./dist/index.d.ts"
+    "types": "./dist/index.d.mts"
   },
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rtritto/fastest-qs.git"
   },
-  "license": "MIT",
-  "packageManager": "yarn@4.5.0",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "pkgroll",
     "lint": "eslint src/**/*.ts",
-    "od": "yarn outdated",
-    "prepublishOnly": "yarn build"
+    "build": "pkgroll",
+    "prepublishOnly": "yarn build",
+    "od": "yarn outdated"
   },
   "dependencies": {
     "fast-decode-uri-component": "^1.0.1"
