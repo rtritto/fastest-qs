@@ -1,14 +1,17 @@
 # fastest-qs
 
-Object version inspired to custom `fast-querystring` used by [Elysia](https://github.com/elysiajs/elysia) that it's inspired to original [fast-querystring](https://github.com/anonrig/fast-querystring).
+This project is an object version is an exported `fast-querystring` used by [Elysia](https://github.com/elysiajs/elysia) ([source](https://github.com/elysiajs/elysia/blob/main/src/fast-querystring.ts)), which in turn is inspired by the original [fast-querystring](https://github.com/anonrig/fast-querystring).
 
-## Install
+## Installation
+
+To install the package, run the following command:
+
 ```sh
 yarn add fastest-qs
 ```
 
-## Licenses
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-Licenses of these projects are listed in [THIRD-PARTY-LICENSE](THIRD-PARTY-LICENSE)
+Licenses for third-party projects are listed in [THIRD-PARTY-LICENSE](THIRD-PARTY-LICENSE).
