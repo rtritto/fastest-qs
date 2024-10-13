@@ -10,6 +10,18 @@ To install the package, run the following command:
 yarn add fastest-qs
 ```
 
+## Usage
+
+```ts
+import { parseQueryFromURL } from 'fastest-qs'
+
+const queryURL = 'q=1&q2'
+
+const query = parseQueryFromURL(queryURL)
+
+console.log('Query:', query)   // { q: 1, q: 2 }
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
