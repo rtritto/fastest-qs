@@ -1,5 +1,4 @@
-// @ts-nocheck: ignore this file
-// Called from .github/workflows
+// Called from .github/workflows/release.yml
 
 const generateReleaseNotes = async ({ github, owner, repo, versionTag, defaultBranch }) => {
   const { data: releases } = await github.rest.repos.listReleases({
@@ -7,7 +6,7 @@ const generateReleaseNotes = async ({ github, owner, repo, versionTag, defaultBr
     repo
   })
 
-  const previousRelease = releases.find((r) => r.tag_name.startsWith('v6'))
+  const previousRelease = releases[0]
 
   const { data: { body } } = await github.rest.repos.generateReleaseNotes({
     owner,
@@ -39,17 +38,6 @@ const release = async ({ github, context, defaultBranch, versionTag }) => {
     prerelease: false,
     generate_release_notes: false
   })
-
-  try {
-    await github.rest.git.deleteRef({
-      owner,
-      repo,
-      ref: `heads/release/${versionTag}`
-    })
-  } catch (error) {
-    console.log("Couldn't delete release PR ref")
-    console.log(error)
-  }
 }
 
-export default release
+module.exports = release
