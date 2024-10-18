@@ -2,7 +2,7 @@
   "name": "fastest-qs",
   "version": "1.0.1",
   "license": "MIT",
-  "packageManager": "yarn@4.5.0",
+  "packageManager": "yarn@4.5.1",
   "type": "module",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
