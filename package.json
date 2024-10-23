@@ -39,5 +39,16 @@
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "keywords": [
+    "fast",
+    "fast-querystring",
+    "http",
+    "node-js",
+    "parser",
+    "qs",
+    "query",
+    "querystring",
+    "string"
+  ]
 }
