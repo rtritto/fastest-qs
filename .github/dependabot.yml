@@ -1,10 +1,12 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: '/'
+    directory: /
+    commit-message:
+      prefix: 'chore(deps):'
     schedule:
-      interval: daily
-    versioning-strategy: increase # Update package.json too
+      interval: weekly
+    versioning-strategy: increase
     groups:
       patterns:
         update-types:
