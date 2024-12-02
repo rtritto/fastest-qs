@@ -35,9 +35,6 @@
     "typescript": "5.7.2",
     "typescript-eslint": "^8.16.0"
   },
-  "engines": {
-    "node": ">=20"
-  },
   "keywords": [
     "fast",
     "fast-querystring",
