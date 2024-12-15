@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rtritto/fastest-qs.git"
+    "url": "git+https://github.com/node-ecosystem/fastest-qs.git"
   },
   "files": [
     "dist"
